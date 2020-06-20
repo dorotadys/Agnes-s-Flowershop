@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="vendors/css/styles.css">
+
+
+    <!-- favicons start -->
+    <link rel="apple-touch-icon" sizes="180x180" href="resourses/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="resourses/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="resourses/favicons/favicon-16x16.png">
+    <link rel="manifest" href="resourses/favicons/site.webmanifest">
+    <!--favicons end-->
+    <title>  Agnes's Flowershop </title>
+</head>
+<body>
+    <!--fixed navigation-->
+    <div class="navigation"> 
+        <nav>
+            <ul class="main-nav">
+                <li> <a href="index.html"> About us </a> </li>
+                <li> <a href="#"> Weddings</a> </li>
+                <li> <a href="#"> Funerals </a></li>
+                <li> <a href="special-occasions.html"> Special Occasions </a> </li>
+                <li> <a href="contact-us.html"> Contact us </a> </li>
+            </ul>
+            <img src="vendors/img/logo-colours.png" alt="logo">
+        </nav>
+    </div>
+<!---site content-->
+<div class="contact-content">
+    <div class="item1">
+        <h1> Contact us </h1>
+    </div>
+        <div class="item2">
+            <div id="service-details"> <!--nested grid -->
+                <div class="n-icon-1">
+                    <ion-icon name="location-outline"></ion-icon> 
+                </div>
+                <div class="n-info-1">
+                    Address: 10-3 Blossom St Hackney, London E1 6PL
+                </div>
+                <div class="n-icon-2">
+                    <ion-icon name="call-outline"></ion-icon>
+                </div>
+                <div class="n-info-2">
+                    Telephone: 020 404 0540
+                </div>
+                <div class="n-icon-3">
+                    <ion-icon name="time-outline"></ion-icon>
+                </div>
+                <div class="n-info-3">
+                    Opening hours: Monday &mdash; Saturday 09:00 - 19:00 <br> Sunday 11:00 - 15:00
+                </div>
+                <div class='payment'>
+                    <ul> 
+                        <li> <img src="vendors/img/visa.png" alt='visa'> </li>
+                        <li> <img src='vendors/img/mastercard.png' alt='mastercard'> </li>
+                        <li> <img src='vendors/img/amex.png' alt='amex'></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="item3">
+            <div class="gmap_canvas"><iframe width="450" height="450" id="gmap_canvas" src="https://maps.google.com/maps?q=10%20blossom%20street%20london&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+        </div>
+    <div class="item4">
+        <h2> <ion-icon name="mail-outline"></ion-icon> Send us a message  </h2>
+        <form action="mailto:dorota.dys@gmail.com">
+            <fieldset>
+                <legend>Your details
+                </legend>
+                <label> Name: </label>
+                <input type="text" name="name" size="30" maxlength="100" required><br>
+                <label>Email: </label> 
+                <input type="email" name="email"size="30" maxlength="100" required> <br>
+                <label>Telephone (optional): </label> 
+                <input type="tel" name="tel"size="30" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+            </fieldset>
+            <fieldset>
+                <legend> About you</legend>
+                <label for="hear-about"> How did you hear about us? </label>
+                <select name="refferer" id="hear-about" required>
+                    <option value="google">Google Search</option>
+                    <option value="friend">A friend </option>
+                    <option value="on-line-add">On-lineadd</option>
+                    <option value="other">Other</option>
+                </select><br>
+                <label><input type="checkbox" name="subscribe" checked="checked">Subscribe our newsletter</label><span class="'checkmark"></span><br>
+            </fieldset>
+            <fieldset>
+                <legend> Your message </legend>
+                <textarea rows="4" cols="40" id="message"></textarea> <br>
+                <input type="submit" value="Submit" id="sent-msg">
+            </fieldset>
+        </form>
+    </div>
+</div>
+<!---site content end -->
+<!---footer -->
+<footer class="main-footer">
+        <div class="copyrights"> 
+            <p> &copy; Agnes's Flowershop. All rights reserved. Registered Company UK 45878428 </p>
+        </div>
+        <div class="address">
+            <p> 10-3 Blossom St Hackney, London E1 6PL <br> tel. 020 404 0540 </p>
+        </div>
+        <div class="social-media"> 
+            <ul>
+                <li> Follow us: <br> &nbsp; </li>
+                <li> <a href="#"><img src="vendors/img/instagram.png" alt="instagram"></a></li>
+                <li> <a href="#"><img src="vendors/img/facebook.png" alt='facebook'></a></li>
+                <li> <a href="#"> <img src="vendors/img/pinterest.png" alt="pinterest"></a></li>
+                <li> <a href="#"> <img src="vendors/img/twitter.png" alt="twitter"></a></li>
+            </ul>
+        </div>
+</footer>
+<!--footer end-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="vendors/js/scripts.js"></script>
+</body>
+</html>
