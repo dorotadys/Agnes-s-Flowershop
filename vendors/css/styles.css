@@ -252,7 +252,69 @@ FOOTER
     color: #fff;
     font-size: 80%;
 }
+/*-------------------------
+FUNERALS
+--------------------------*/
 
+.funerals-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    align-items: center;
+    justify-items: center;
+}
+
+.column-1 {
+    width: 30%; 
+    align-self:center;
+    justify-self: center;
+    position: relative;
+    margin-left: 200px;
+    margin-right: -100px;
+}
+
+.column-1 p {
+    text-align: center;
+    padding: 10px;
+}
+
+.column-2 {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    padding: 0px;
+}
+
+.column-2 img {
+    height: 200px;
+}
+
+.product-row-1,
+.product-row-2 {
+    display: flex;
+    direction: row;
+    width: 100%;
+    padding: 0px;
+    align-content: center;
+    justify-content: center;
+}
+
+.product-1, 
+.product-2, 
+.product-3, 
+.product-4 {
+    padding: 20px;
+}
+
+h4 {
+    background-color: rgb(39, 38, 39);
+    color: #cacaca;
+    text-transform: uppercase;
+    font-weight: 200;
+    text-align: center;
+}
 /*-------------------------
 CONTACT US
 --------------------------*/
@@ -371,11 +433,17 @@ CONTACT US
 }
 .payment li {
     list-style: none;
+    margin-left: 5px;
     display: inline-block;
 }
 
 .payment img {
     height: 40px;
+}
+
+#g-pay, 
+#a-pay {
+    height: 30px
 }
 /*-------------------------
 CONTACT FORM
@@ -408,6 +476,7 @@ CONTACT FORM
 .group-5, 
 .group-6 {
     padding: 10px;
+    animation-delay: 1s;
 }
 /* ------- photos animations -------------*/
 .group-1 {
@@ -510,6 +579,7 @@ CONTACT FORM
     border: 2px #fd2870 solid;
     border-radius: 5px;
     padding: 5px 10px;
+    background-color: #fd286f5e;
 }
 
 .button:hover, 
@@ -517,10 +587,7 @@ CONTACT FORM
     background-color: #fd2870;
     transition: color 0.2s, background-color 0.2s;
 }
-.button:visited {
-    background-color: #fd286f5e;
 
-}
 .button a {
     text-decoration: none;
     color: inherit;
@@ -530,6 +597,8 @@ CONTACT FORM
 .button a:active {
     color: ivory;
 }
+
+
 .row-4 {
     padding: 10px;
 }
@@ -538,6 +607,8 @@ h3 {
     font-size: 110%;
     text-align: center;
 }
+
+
 
 /*-------------------------
 CONTACT FORM
