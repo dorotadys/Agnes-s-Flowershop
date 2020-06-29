@@ -106,5 +106,5 @@ function calc2() {
 }
 setInterval(calc2, 0);
 
-
+//  mobile nav
 
